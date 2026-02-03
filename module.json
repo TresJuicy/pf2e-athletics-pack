@@ -1,0 +1,23 @@
+{
+  "id": "pf2e-athletics-pack",
+  "title": "PF2e Athletics Automation Pack",
+  "description": "Single-target Athletics action macros for PF2e: Trip, Grapple, Shove, Reposition, Disarm.",
+  "version": "1.0.0",
+  "authors": [{ "name": "Tres Juicy" }],
+
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+
+  "esmodules": ["scripts/init.js"],
+
+  "packs": [
+    {
+      "name": "athletics-macros",
+      "label": "Athletics Macros",
+      "type": "Macro",
+      "path": "packs/athletics-macros"
+    }
+  ]
+}

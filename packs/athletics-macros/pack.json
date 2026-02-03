@@ -1,0 +1,10 @@
+{
+  "name": "athletics-macros",
+  "label": "Athletics Macros",
+  "type": "Macro",
+  "system": "pf2e",
+  "ownership": {
+    "PLAYER": "LIMITED",
+    "GAMEMASTER": "OWNER"
+  }
+}
