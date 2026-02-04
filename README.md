@@ -40,6 +40,8 @@ Single-target Athletics action macros for Pathfinder 2e in Foundry VTT:
 
 \- Pathfinder 2e system
 
+\- PF2e Workbench
+
 
 
 \## Notes
