@@ -1,60 +1,84 @@
-\# PF2e Athletics Automation Pack
+# PF2e Athletics Automation Pack
 
+A lightweight Foundry VTT module that adds **single-target Athletics action macros** for the Pathfinder 2e system.
 
+These macros streamline common combat maneuvers by handling the roll and applying the correct effects where possible.
 
-Single-target Athletics action macros for Pathfinder 2e in Foundry VTT:
+---
 
+## Included Macros
 
+✅ **Trip**  
+- Rolls Athletics vs Reflex DC  
+- Applies **Prone** on success
 
-\- Trip (applies Prone)
+✅ **Grapple**  
+- Rolls Athletics vs Fortitude DC  
+- Applies **Grabbed** or **Restrained** on critical success
 
-\- Grapple (applies Grabbed/Restrained)
+✅ **Shove**  
+- Rolls Athletics vs Fortitude DC  
+- Provides a reminder for push distance (manual movement)
 
-\- Shove (distance reminder)
+✅ **Reposition**  
+- Rolls Athletics vs Fortitude DC  
+- Provides a reminder for forced movement distance (manual movement)
 
-\- Reposition (distance reminder)
+✅ **Disarm**  
+- Rolls Athletics vs Reflex DC  
+- Posts the official PF2e Disarm rules in chat  
+- **Does not automate weapon dropping**
 
-\- Disarm (rules reminder)
+---
 
+## Usage
 
+1. Install and enable the module
+2. Open:
 
-\## Usage
+   **Compendium Packs → Athletics Macros**
 
+3. Drag the macros onto your hotbar
+4. In play:
 
+   - Select your token  
+   - Target exactly **one** creature  
+   - Click the macro
 
-1\. Enable the module
+The roll dialog will appear automatically.
 
-2\. Open Compendium Packs → Athletics Macros
+---
 
-3\. Drag macros to your hotbar
+## Requirements
 
-4\. Select your token, target 1 creature, run the macro
+This module depends on:
 
+- **Foundry Virtual Tabletop v12+**
+- **Pathfinder Second Edition system**
+- **xdy-pf2e-workbench** (required for automation helpers)
 
+Make sure Workbench is installed and enabled or the macros will fail.
 
-\## Requirements
+---
 
+## Notes / Limitations
 
+- Forced movement (Shove/Reposition) must still be performed manually
+- Disarm in PF2e does not automatically remove weapons, so this macro only explains the outcome
+- These macros are intended for fast single-target combat actions, not full battlefield automation
 
-\- Foundry VTT v12+
+---
 
-\- Pathfinder 2e system
+## Author
 
-\- PF2e Workbench
+**Tres Juicy**
 
+---
 
+## License
 
-\## Notes
+All Rights Reserved.
 
-
-
-Disarm does not automate weapon dropping; it provides the correct rules reminder.
-
-
-
-Author: Tres Juicy
-
-License: All Rights Reserved
 
 
 
